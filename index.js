@@ -28,8 +28,8 @@ function unleashDog(dogName, dogBreed) {
   console.log(str);
   return str;
 }
-const routine =[wakeDog(dogName, dogBreed),leashDog(dogName, dogBreed),walkToPark(dogName, dogBreed)
-,throwFrisbee(dogName, dogBreed),walkHome(dogName, dogBreed),unleashDog(dogName, dogBreed)];
+const routine =[wakeDog(),leashDog(),walkToPark()
+,throwFrisbee(),walkHome(),unleashDog()];
 function exerciseDog(dogName, dogBreed) {
   const result = [];
   for(i=0 ;i< routine.length;i++){
