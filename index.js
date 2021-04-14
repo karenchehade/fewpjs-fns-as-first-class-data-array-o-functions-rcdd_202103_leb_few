@@ -32,7 +32,7 @@ const routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
   let result = [];
-  for(i=0 ;i< routine.length;i++){
+  for(let i=0 ;i< routine.length;i++){
     result[i]+= routine[i](dogName, dogBreed);
   }
   return result;
