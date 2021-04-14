@@ -32,6 +32,6 @@ const routine =[wakeDog(dogName, dogBreed),leashDog(dogName, dogBreed),walkToPar
 function exerciseDog(dogName, dogBreed) {
   const result = [];
   for(i=0 ;i< routine.length;i++){
-    
+
   }
 }
